@@ -1,0 +1,21 @@
+.login-right {
+    /* margin-top: -100px; */
+    /* background: url("../../components/images/LoginPic.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    display: flex;
+    /* height: 100vh; */
+  }
+  .LoginPic {
+    width: 150%;
+    height: 100vh !important;
+  }
+  .header-1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .btn-block{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+  }

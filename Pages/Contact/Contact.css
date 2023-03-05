@@ -1,0 +1,17 @@
+/*  */
+.App{
+  
+  position: relative ;
+  bottom: 500px;
+  left: 300px;
+  padding-left: 100px;
+  margin-right: 45%;
+  margin-top: 2%;
+  border-radius: 10%;
+}
+.contact-form{
+  padding: 50px;
+}
+#submit-button{
+  margin: 2%;
+}

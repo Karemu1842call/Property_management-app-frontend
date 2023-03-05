@@ -1,0 +1,22 @@
+.table-headers{
+    color: #ffffff;
+    color: #e6f8ff;
+
+}
+
+.property_attr{
+    color: rgb(69, 62, 62);
+}
+
+.deleteBtn{
+    background-color:red;
+    border-radius: 10px;
+    border-color: red;
+    color: rgb(255, 255, 255);
+    }
+    
+    .PropertyRow{
+        background-color: #e6e9ff;
+        border-radius: 5px;
+        box-shadow: inset;
+    }
