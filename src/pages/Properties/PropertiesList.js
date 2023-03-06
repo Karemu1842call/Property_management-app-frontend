@@ -49,7 +49,7 @@ const PropertiesList = ({ search, property, getProperties }) => {
 
   // delete functionality
   function handleDelClick(id) {
-    fetch(`https://web-production-07dae.up.railway.app/property/${id}`, {
+    fetch(`http://localhost:9292/property/${id}`, {
       method: "DELETE",
     }).then((result) => {
       result.json().then(getProperties());

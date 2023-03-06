@@ -31,7 +31,7 @@ const TenantsList = ({ search, tenant, getTenants }) => {
 
   //delete tenant functionality
   function handleDelClick(id, name) {
-    fetch(`https://web-production-07dae.up.railway.app/tenant/${id}`, {
+    fetch(`http://localhost:9292/tenant/${id}`, {
       method: "DELETE",
     }).then((result) => {
       result.json().then(getTenants());

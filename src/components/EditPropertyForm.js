@@ -4,42 +4,39 @@ import { useNavigate } from 'react-router-dom'
 import Navbar from '../pages/Navbar/Navbar'
 
 
-const EditPropertyForm = () => {
+
+const EditPropertyForm = (id) => {
   const [property_name, setPropertyName] = useState("");
   const [property_type, setPropertyType] = useState("");
   const [property_size, setPropertySize] = useState("");
   const [location, setLocation] = useState("");
+  //const [property, setProperty] = useState(null);
   
-
   const navigate = useNavigate();
 
-  const baseUrl = "https://web-production-07dae.up.railway.app/";
-
-  const editProperty = () => {
-    const propertyData = {
-      property_name: property_name,
-      location: location,
-      property_type: property_type,
-      property_size: property_size,
-    };
-    fetch(`${baseUrl}property/{property.id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(propertyData),
-    }).then((r) => r.json());
-  }
-
-  
-  // creating a function to handle submissions
-  const handleSubmit = (e) => {
+    // creating a function to handle submissions
+  async function handleSubmit(e) {
     e.preventDefault();
-    editProperty();
-   
+    fetch(`http://localhost:9292/properties/${id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        property_name: property_name,
+        location: location,
+        property_type: property_type,
+        property_size: property_size
+      })
+    }).then(() => {
+      alert("Saved")(navigate("/properties"));
+    });
+      
+  };
 
-    alert("saved")(navigate("/properties"));
-  }
+
+
+
   return (
     <div className="container-fluid">
       <div className="row">

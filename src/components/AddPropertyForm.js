@@ -16,7 +16,7 @@ const AddPropertyForm = () => {
 
   const navigate = useNavigate();
 
-  const baseUrl = "https://web-production-07dae.up.railway.app/";
+  const baseUrl = "http://localhost:9292/";
 
   const postProperty = () => {
     const propertyData = {
