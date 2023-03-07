@@ -4,7 +4,7 @@ import './Dashboard.css'
 const OverViewList = () => {
 
   const [property, setProperty] = useState([]);
-  const baseUrl = "http://localhost:9292/";
+  const baseUrl = "hhttps://web-production-07dae.up.railway.app/";
   useEffect(() => {
     getProperties();
   }, []);

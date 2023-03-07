@@ -110,7 +110,7 @@ const Contact = () => {
           </form>
           <div className="Contacts">
             <h4>Contact us through:</h4>
-            <h3>Email : bebenibernard.gmail.co.ke</h3>
+            <h3>Email : useruser.gmail.co.ke</h3>
             <h3>Phone number : +254715012201</h3>
             <h2>Nairobi</h2>
           </div>

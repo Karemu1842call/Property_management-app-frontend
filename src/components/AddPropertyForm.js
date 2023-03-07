@@ -120,7 +120,7 @@ const AddPropertyForm = () => {
           style={{maxWidth:"40%"}}
             tenant_name="tenant_name"
             type="text"
-            placeholder="Bernard Bebeni"
+            placeholder="User User"
             onChange={(e) => setTenant(e.target.value)}
           />
         </Form.Group>
@@ -130,7 +130,7 @@ const AddPropertyForm = () => {
           style={{maxWidth:"40%"}}
             email="email"
             type="email"
-            placeholder="bebeni@gmail.com"
+            placeholder="user@gmail.com"
             onChange={(e) => setEmail(e.target.value)}
           />
         </Form.Group>

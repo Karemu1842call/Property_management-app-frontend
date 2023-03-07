@@ -40,7 +40,7 @@ const TopNavBar = ({ setSearch }) => {
                     <Col className="d-flex">
                         <Avatar name="Bernard Bebeni" color="#0F3B80" size={40} textSizeRatio={2.5} round="20px"/>
                         <div className="avatar-names">
-                            <p>Bernard</p>
+                            <p>User</p>
                             <p>Landlord</p>
                         </div>
                     </Col>

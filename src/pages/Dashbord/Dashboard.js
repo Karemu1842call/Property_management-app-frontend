@@ -25,7 +25,7 @@ const Dashboard = () => {
         >
           <TopNavBar setSearch={setSearch} search={search} />
           <div className="Greeting-text row mx-5 my-4">
-            <p>Hello, Bernard</p>
+            <p>Hello, User</p>
           </div>
           <OverViewCard />
         </div>

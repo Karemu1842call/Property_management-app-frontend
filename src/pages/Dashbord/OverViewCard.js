@@ -7,7 +7,7 @@ import OverviewList from './OverViewList'
 
 const OverViewCard = () => {
 
-  const baseUrl = "http://localhost:9292/";
+  const baseUrl = "https://web-production-07dae.up.railway.app/";
 
   const [active, setActive] = useState("");
   const [total, setTotal] = useState("");
