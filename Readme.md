@@ -1,5 +1,5 @@
 # Property_management-app-frontend  
-*dev by:Karemu Victor
+*dev by:The Gang
 ## ABOUT THE APP
 This application suits management systems especially the property owners. It is a simple web application to be used by landlords and landladies to ease their work of storing their data.
  
