@@ -10,7 +10,7 @@ const Properties = () => {
   //fetch properties from database
   const [search, setSearch] = useState("");
   const [property, setProperty] = useState([]);
-  const baseUrl = "http://localhost:9292/";
+  const baseUrl = "https://web-production-07dae.up.railway.app/";
   useEffect(() => {
     getProperties();
   }, []);
